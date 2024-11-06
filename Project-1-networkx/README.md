@@ -168,8 +168,6 @@ The results in terms of Core levels could have been forseen easily, as for each 
 ### plot the vertices degree distribution
 The graphic acquiret as result is as follows:
 
-![](./graphics/vdegree.png)
-
 ![](./graphics/vdegree-log.png)
 
 Please, be aware the X-axis and Y-axis are in log scale. The distribution indicates the approximately exponential decline in the degree of the graph nodes, with a few outliers breaking limit of cca. 50 contacts. Those outliers can be described as a biggest integrators among the network.
