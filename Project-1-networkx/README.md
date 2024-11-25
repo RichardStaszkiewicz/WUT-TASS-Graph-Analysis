@@ -84,7 +84,7 @@ The initial dendrogram has been drawn as follows:
 
 ![](./graphics/dendrogram.png)
  
-Afterwards, the cut was performed on the nodes with dissimilarity higher then 1, that could be interpreted by a statement "Characters in a single cluster does not have on average an interaction from outside of the cluster".
+Afterwards, the cut was performed on the nodes with dissimilarity higher then 1, that could be interpreted by a statement "Characters in a single cluster does not have on average an interaction from outside of the cluster". This type of clustering allows to imply shared community membership.
 
 ```
 ==============================================================================
@@ -112,7 +112,7 @@ Frequency distribution of cluster values:
 
 ### Draw the acquired clusters
 
-The resultiong clusters are shown on the graphs below. The results indicate a two highly connected groups (with one of them being 3-modal via 2 bridges) and one group, that is loosely tied together by a single interactions.
+The resultiong clusters are shown on the graphs below. The results indicate a two highly connected groups (with one of them being 3-modal via 2 bridges) and one group, that is loosely tied together by a single interactions. The first two are pretty self-explanatory communities, however the third may require investigation. I belive the reason lies within the shallow bonds with established communities of every single verticle, what allows a lot of them to access one another with low degree of d1 dissimilarity via network bridges.
 
 ![](./graphics/cl0c=1.jpg)
 
